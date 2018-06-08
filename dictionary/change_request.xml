@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true" audit="true" extends="task" label="Change Request" max_length="40" name="change_request" sizeclass="105" text_index="true" type="collection">
+        <element display="true" label="VstsMetadata" max_length="3000" name="x_236463_hadhawan_vstsmetadata" type="string"/>
+        <element label="Release information" max_length="80" name="x_236463_hadhawan_u_release_info" type="field_name"/>
+    </element>
+</database>
